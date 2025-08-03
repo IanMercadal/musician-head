@@ -75,7 +75,12 @@ p {
 
 /* TITTLES */
 h1 {
-    font-size: 20px;
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 h1, h2, h3 {
@@ -223,7 +228,7 @@ h1, h2, h3 {
 @media (max-width: 768px) {
     #content {
         grid-template-rows: 5% 90% 5%;
-        padding: 1rem 2rem;
+        padding: 1rem;
     }
 
     .img-thumbnail {
